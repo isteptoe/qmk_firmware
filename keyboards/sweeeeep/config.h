@@ -45,6 +45,7 @@
 
 #ifdef OLED_ENABLE
 #define OLED_DISPLAY_128X32
+#define SPLIT_LAYER_STATE_ENABLE
 #endif
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
@@ -75,3 +76,5 @@
 
 /* Backwards compatibility with existing out-of-tree keymaps */
 #define LAYOUT_sweeeeep LAYOUT_split_3x5_3
+
+
