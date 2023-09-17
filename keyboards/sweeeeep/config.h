@@ -51,9 +51,9 @@
 #define DEBOUNCE 5
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
-#define LOCKING_SUPPORT_ENABLE
+#undef LOCKING_SUPPORT_ENABLE
 /* Locking resynchronize hack */
-#define LOCKING_RESYNC_ENABLE
+#undef LOCKING_RESYNC_ENABLE
 
 /* Serial settings */
 #define USE_SERIAL
@@ -68,6 +68,10 @@
 #endif
 
 #define MASTER_LEFT
+
+#define NO_MUSIC_MODE
+
+#define LAYER_STATE_8BIT
 
 /* Backwards compatibility with existing out-of-tree keymaps */
 #define LAYOUT_sweeeeep LAYOUT_split_3x5_3
